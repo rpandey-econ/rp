@@ -21,23 +21,26 @@
       </nav>
     </header>
 
-    <main class="cv-main">
-      <div class="cv-bar">
-        <h2>Curriculum Vitae</h2>
-        <div class="cv-links">
-          <a href="cv.pdf" download>Download PDF</a>
-          <a href="cv.pdf" target="_blank" rel="noopener">Open in new tab</a>
-        </div>
-      </div>
+    <div class="cv-container">
 
-      <!-- To update: replace cv.pdf with your new version (same file name). -->
-      <object class="pdf-frame" data="cv.pdf#view=FitH&amp;navpanes=0" type="application/pdf">
+    <div class="cv-links">
+        <a href="cv.pdf" target="_blank">Download PDF</a>
+        <a href="cv.pdf" target="_blank">Open in new tab</a>
+    </div>
+
+    <object class="pdf-frame" 
+            data="cv.pdf#view=FitH&amp;navpanes=0" 
+            type="application/pdf">
+        
         <div class="pdf-fallback">
-          <p>Your browser can't show the PDF here.</p>
-          <p><a href="cv.pdf" target="_blank" rel="noopener">Open the CV (PDF)</a></p>
+            <p>Your browser can't show the PDF here.</p>
+            <p>
+                <a href="cv.pdf" target="_blank">Open the CV (PDF)</a>
+            </p>
         </div>
-      </object>
-    </main>
+    </object>
+
+</div>
 
     <footer>© 2026 Your Name</footer>
   </div>
